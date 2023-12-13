@@ -1,0 +1,2 @@
+module KeisansHelper
+end

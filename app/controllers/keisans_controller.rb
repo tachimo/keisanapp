@@ -1,0 +1,2 @@
+class KeisansController < ApplicationController
+end

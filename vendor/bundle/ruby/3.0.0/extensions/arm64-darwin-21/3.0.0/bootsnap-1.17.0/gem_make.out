@@ -1,0 +1,19 @@
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.0/ext/bootsnap
+/Users/dai_tachimoto/.rbenv/versions/3.0.4/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20231213-17426-bci8e.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+bootsnap.c:822:10: warning: unused variable 'contents' [-Wunused-variable]
+  char * contents = NULL;
+         ^
+1 warning generated.
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20231213-17426-24e7wk/bootsnap

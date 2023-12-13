@@ -1,0 +1,15 @@
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/dai_tachimoto/.rbenv/versions/3.0.4/bin/ruby -I /Users/dai_tachimoto/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20231213-17426-y163e4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/dai_tachimoto/workspace/keisan1/keisan/vendor/bundle/ruby/3.0.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20231213-17426-y0dj8/racc
