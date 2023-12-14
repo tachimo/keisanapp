@@ -1,0 +1,17 @@
+<p>計算をするので数字を入れてください</p>
+<%= form_for :keisan, url: keisans_path do |f| %>
+
+  <p>
+    <%= f.label :number1 %><br>
+    <%= f.number_field :number1 %>
+  </p>
+
+  <p><%= f.label :number2 %><br>
+    <%= f.number_field :number2 %><br>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>
