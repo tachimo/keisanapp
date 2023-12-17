@@ -9,12 +9,13 @@ class KeisansController < ApplicationController
   def create
     @calculation = Calculation.new(calculation_params)
     @calculation.save
-    redirect_to keisans_path(@calculation)
+    redirect_to keisan_path(@calculation)
   end
 
   def show
-    @calculation = Calculation.find(params[:id])  @number1 = @keisan["number1"]
-    @number2 = @keisan["number2"]
+    @calculation = Calculation.find(params[:id])
+    @number1 = @calculation["number1"]
+    @number2 = @calculation["number2"]
     @tashizan = @number1 + @number2
     @hikizan = @number1 - @number2
     @kakezan = @number1 * @number2
@@ -24,7 +25,7 @@ class KeisansController < ApplicationController
   private
 
   def calculation_params
-    params.require(:calculation).permit(:number1. :number2)
+    params.require(:keisan).permit(:number1, :number2)
   end  
 
 end
