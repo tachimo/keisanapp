@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <body>
         <!-- Navigation-->
@@ -50,10 +49,14 @@
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
-                                    <!-- Product price-->
-                                    $40.00 - $80.00
+                                    <p>結果</p>
+
+                                    <%= @calculation.number1 %> + <%= @calculation.number2 %> = <%= @tashizan %> <br>
+                                    <%= @calculation.number1 %> - <%= @calculation.number2 %> = <%= @hikizan %> <br>
+                                    <%= @calculation.number1 %> * <%= @calculation.number2 %> = <%= @kakezan %> <br>
+                                    <%= @calculation.number1 %> / <%= @calculation.number2 %> = <%= @warizan %> <br>
+
+                                    <%= link_to '計算へ', root_path %>
                                 </div>
                             </div>
                             <!-- Product actions-->
